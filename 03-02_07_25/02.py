@@ -15,4 +15,4 @@ else:
     classificacao = "Obeso"
 
 
-print(f"Seu IMC é {imc:.2f}. Classificação: {classificacao}")
+print(f"Seu IMC é {imc:.2f}. Classificação: {classificacao}.")

@@ -8,8 +8,7 @@ def converter_temperatura(valor, origem, destino):
     elif origem == "K":
         celsius = valor - 273.15
     else:
-        return "Unidade de origem inválida."
-
+        return "A unidade de origem inválida."
 
     if destino == "C":
         return celsius
@@ -19,7 +18,6 @@ def converter_temperatura(valor, origem, destino):
         return celsius + 273.15
     else:
         return "Unidade de destino inválida."
-
 
 valor = float(input("Digite o valor da temperatura: "))
 origem = input("Digite a unidade de origem (C, F ou K): ").upper()

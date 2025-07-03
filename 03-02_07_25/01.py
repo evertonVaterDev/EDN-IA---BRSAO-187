@@ -11,4 +11,4 @@ elif idade >= 18 and idade <= 59:
 elif idade >= 60:
     print("Você é um Idoso.")
 else:
-    print("Idade inválida. Digite um número positivo.")
+    print("Idade inválida. Digite um número positivo")
